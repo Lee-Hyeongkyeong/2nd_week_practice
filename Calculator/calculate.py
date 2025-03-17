@@ -2,25 +2,25 @@ if __name__ == '__main__':
     
         ### 사칙연산 함수 정의
     def plus(a, b):
-        return a + b
+        return float(a) + float(b)
 
     def minus(a, b):
-        return a - b
-
+        return float(a) - float(b)
+    
     def mul(a, b):
-        return a * b
-
+        return float(a) * float(b)
+    
     def divide(a, b):
-        return a / b
-
+        return float(a) / float(b)
+    
     ### 사용자 입력
-    print('\n첫번쨰 숫자를 입력하세요.')
+    print('\n첫번째 숫자를 입력하세요.')
     input1 = input('입력: ')
 
     print('\n원하는 사칙연산 기호 중 하나를 선택하세요. (+, -, *, /)')
     act = input('입력: ')
 
-    print('\n두번쨰 숫자를 입력하세요.')
+    print('\n두번째 숫자를 입력하세요.')
     input2 = input('입력: ')
 
 
